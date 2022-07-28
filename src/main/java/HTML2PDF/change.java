@@ -7,8 +7,8 @@ public class change {
 
     public static void main(String[] args) {
         String local = "D:\\test\\Report\\";
-        String in = local + "WEB扫描-正式-HTTP-cloud.easipass.com[2021-11-10 16_32_50]Report.html";
-        String out = local + "WEB扫描-正式-cloud.easipass.com.html";
+        String in = local + "Report.html";
+        String out = local + "W.html";
         File fileIn = new File(in);
         File fileOut = new File(out);
         StringBuilder stringBuilder = new StringBuilder();
